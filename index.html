@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YhaZt — Full-Stack Developer</title>
+  <meta name="description" content="Full-Stack Developer specializing in Vue, React, Node.js, Laravel, and cloud platforms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───────────────── NAV ───────────────── -->
+  <nav class="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">&lt;YhaZt /&gt;</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#wakatime">WakaTime</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ───────────────── HERO ───────────────── -->
+  <header id="about" class="hero">
+    <div class="container hero__inner">
+      <p class="hero__greeting">Hi, I'm</p>
+      <h1 class="hero__name">YhaZt</h1>
+      <h2 class="hero__title">Full-Stack Developer</h2>
+      <p class="hero__bio">
+        I build modern web applications from front to back — crafting
+        responsive UIs with <strong>Vue&nbsp;/&nbsp;React</strong>, powering APIs with
+        <strong>Node.js&nbsp;/&nbsp;Laravel</strong>, and deploying on
+        <strong>DigitalOcean&nbsp;/&nbsp;Firebase&nbsp;/&nbsp;Supabase</strong>.
+        Always learning, always shipping.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="https://github.com/YhaZt" target="_blank" rel="noopener" class="btn btn--outline">GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ───────────────── TECH STACK ───────────────── -->
+  <section id="stack" class="section">
+    <div class="container">
+      <h2 class="section__title">Tech Stack</h2>
+      <p class="section__subtitle">Technologies I work with daily</p>
+
+      <div class="stack-grid">
+        <!-- Frontend -->
+        <div class="stack-category">
+          <h3 class="stack-category__title">Frontend</h3>
+          <div class="stack-tags">
+            <span class="tag tag--vue">Vue.js</span>
+            <span class="tag tag--react">React</span>
+            <span class="tag tag--quasar">Quasar</span>
+            <span class="tag tag--ts">TypeScript</span>
+            <span class="tag tag--js">JavaScript</span>
+            <span class="tag tag--html">HTML / CSS</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="stack-category">
+          <h3 class="stack-category__title">Backend</h3>
+          <div class="stack-tags">
+            <span class="tag tag--node">Node.js</span>
+            <span class="tag tag--express">Express</span>
+            <span class="tag tag--laravel">Laravel</span>
+            <span class="tag tag--ci4">CodeIgniter 4</span>
+            <span class="tag tag--python">Python</span>
+            <span class="tag tag--spring">Spring Boot</span>
+          </div>
+        </div>
+
+        <!-- Database & Cloud -->
+        <div class="stack-category">
+          <h3 class="stack-category__title">Database &amp; Cloud</h3>
+          <div class="stack-tags">
+            <span class="tag tag--pg">PostgreSQL</span>
+            <span class="tag tag--mongo">MongoDB</span>
+            <span class="tag tag--firebase">Firebase</span>
+            <span class="tag tag--supabase">Supabase</span>
+            <span class="tag tag--do">DigitalOcean</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── PROJECTS ───────────────── -->
+  <section id="projects" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Featured Projects</h2>
+      <p class="section__subtitle">Things I've built and shipped</p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/YhaZt/ibibes_frontend" target="_blank" rel="noopener" title="Source">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+              </a>
+              <!-- Add a live link below when available -->
+              <!-- <a href="https://your-live-url.com" target="_blank" rel="noopener" title="Live Demo">🔗</a> -->
+            </div>
+          </div>
+          <h3 class="project-card__name">IBIBES Frontend</h3>
+          <p class="project-card__desc">A modern Vue.js application with Quasar framework for the IBIBES platform.</p>
+          <div class="project-card__tags">
+            <span>Vue.js</span><span>Quasar</span><span>Supabase</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/YhaZt/ibibes-document-tracker" target="_blank" rel="noopener" title="Source">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__name">Document Tracker</h3>
+          <p class="project-card__desc">Document tracking system built with Vue.js and TypeScript for streamlined workflow management.</p>
+          <div class="project-card__tags">
+            <span>Vue.js</span><span>TypeScript</span><span>Node.js</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/YhaZt/RITE" target="_blank" rel="noopener" title="Source">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__name">RITE (VPRITE Website)</h3>
+          <p class="project-card__desc">Full-stack web application built with JavaScript for the VPRITE organization.</p>
+          <div class="project-card__tags">
+            <span>JavaScript</span><span>Node.js</span><span>Express</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/YhaZt/lms" target="_blank" rel="noopener" title="Source">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__name">LMS</h3>
+          <p class="project-card__desc">Learning Management System built with Vue.js for educational content delivery.</p>
+          <div class="project-card__tags">
+            <span>Vue.js</span><span>Firebase</span><span>Quasar</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/YhaZt/MedicineScheduler" target="_blank" rel="noopener" title="Source">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__name">Medicine Scheduler</h3>
+          <p class="project-card__desc">VPS-deployed Vue.js app for managing medicine schedules and reminders.</p>
+          <div class="project-card__tags">
+            <span>Vue.js</span><span>DigitalOcean</span><span>Node.js</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/YhaZt/ExpensesApp" target="_blank" rel="noopener" title="Source">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__name">Expenses App</h3>
+          <p class="project-card__desc">TypeScript-based expense tracking application for personal finance management.</p>
+          <div class="project-card__tags">
+            <span>TypeScript</span><span>React</span><span>Firebase</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── WAKATIME ───────────────── -->
+  <section id="wakatime" class="section">
+    <div class="container">
+      <h2 class="section__title">Coding Activity</h2>
+      <p class="section__subtitle">My WakaTime stats — tracked in real time</p>
+
+      <div class="wakatime-grid">
+        <div class="wakatime-card">
+          <img
+            src="https://github-readme-stats.vercel.app/api/wakatime?username=YhaZt&theme=transparent&hide_border=true&text_color=94a3b8&title_color=38bdf8&bg_color=0f172a&layout=compact&langs_count=10"
+            alt="YhaZt's WakaTime Stats"
+            loading="lazy"
+          />
+        </div>
+        <div class="wakatime-card">
+          <img
+            src="https://wakatime.com/share/@YhaZt/d03064e0-9a29-4b6f-9bca-6d7e7e6edc3c.svg"
+            alt="YhaZt's WakaTime Languages"
+            loading="lazy"
+            onerror="this.closest('.wakatime-card').innerHTML='<p class=\'wakatime-fallback\'>Visit <a href=\'https://wakatime.com/@YhaZt\' target=\'_blank\'>wakatime.com/@YhaZt</a> for detailed stats</p>'"
+          />
+        </div>
+      </div>
+
+      <p class="wakatime-link">
+        <a href="https://wakatime.com/@YhaZt" target="_blank" rel="noopener">
+          View full WakaTime profile →
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ───────────────── GITHUB STATS ───────────────── -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">GitHub Stats</h2>
+      <p class="section__subtitle">Open-source contributions at a glance</p>
+
+      <div class="stats-grid">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=YhaZt&show_icons=true&theme=transparent&hide_border=true&text_color=94a3b8&title_color=38bdf8&icon_color=38bdf8&bg_color=0f172a&count_private=true"
+          alt="GitHub Stats"
+          loading="lazy"
+        />
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com?user=YhaZt&theme=transparent&hide_border=true&ring=38bdf8&fire=f472b6&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0F172A&stroke=1e293b&currStreakNum=e2e8f0&sideNums=e2e8f0"
+          alt="GitHub Streak"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── CONTACT ───────────────── -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2 class="section__title">Get In Touch</h2>
+      <p class="section__subtitle">Have a project in mind? Let's talk.</p>
+
+      <div class="contact-links">
+        <a href="https://github.com/YhaZt" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.333-1.724-1.333-1.724-1.089-.731.083-.716.083-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209A11.616 11.616 0 0112 6.844c1.02.005 2.047.136 3.006.404 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:your-email@example.com" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <span>Email</span>
+        </a>
+        <a href="https://wakatime.com/@YhaZt" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 16.394c-.163.328-.492.534-.856.534a.95.95 0 01-.424-.1L12 14.118l-4.614 2.71a.95.95 0 01-.424.1c-.364 0-.693-.206-.856-.534a.967.967 0 01.091-1.014L9.68 12l-3.483-3.38a.967.967 0 01-.091-1.014c.163-.328.492-.534.856-.534a.95.95 0 01.424.1L12 9.882l4.614-2.71a.95.95 0 01.424-.1c.364 0 .693.206.856.534a.967.967 0 01-.091 1.014L14.32 12l3.483 3.38a.967.967 0 01.091 1.014z"/></svg>
+          <span>WakaTime</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with ☕ by <strong>YhaZt</strong></p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav__toggle');
+    const links  = document.querySelector('.nav__links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    // Close menu on link click
+    document.querySelectorAll('.nav__links a').forEach(a => {
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const href = a.getAttribute('href');
+        e.preventDefault();
+        if (href === '#') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          const target = document.querySelector(href);
+          if (target) target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+    // Scroll-based nav background
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 40);
+    });
+  </script>
+</body>
+</html>
