@@ -1,7 +1,7 @@
 <!-- Copy this entire file into a repo named exactly: YhaZt/YhaZt (README.md) -->
 <!-- That repo is what makes github.com/YhaZt look designed — NOT YhaZt.github.io -->
 
-<h1 align="center">Hi, I'm YhaZt 👋</h1>
+<h1 align="center">Hi, I'm Carpel SD 👋</h1>
 
 <h3 align="center">Full-Stack Developer</h3>
 
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YhaZt"><img src="https://img.shields.io/badge/GitHub-YhaZt-111?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/YhaZt"><img src="https://img.shields.io/badge/GitHub-Carpel_SD-111?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   &nbsp;
   <a href="https://yhazt.github.io"><img src="https://img.shields.io/badge/Portfolio-yhazt.github.io-2563eb?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   &nbsp;
