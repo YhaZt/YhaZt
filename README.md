@@ -12,9 +12,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YhaZt"><img src="https://img.shields.io/badge/GitHub-YhaZt-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://yhazt.github.io"><img src="https://img.shields.io/badge/Portfolio-yhazt.github.io-38bdf8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://wakatime.com/@YhaZt"><img src="https://img.shields.io/badge/WakaTime-@YhaZt-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime" /></a>
+  <a href="https://github.com/YhaZt"><img src="https://img.shields.io/badge/GitHub-YhaZt-111?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://yhazt.github.io"><img src="https://img.shields.io/badge/Portfolio-yhazt.github.io-2563eb?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="https://wakatime.com/@YhaZt"><img src="https://img.shields.io/badge/WakaTime-@YhaZt-1a1a2e?style=flat-square&logo=wakatime&logoColor=white" alt="WakaTime" /></a>
 </p>
 
 ---
@@ -66,12 +68,16 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YhaZt&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YhaZt&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
+  <img src="https://streak-stats.demolab.com/?user=YhaZt&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YhaZt&theme=tokyonight" alt="GitHub Stats" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YhaZt&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YhaZt&theme=tokyonight" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YhaZt&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
 </p>
 
 ---
@@ -79,7 +85,13 @@
 ### ⏱ Coding Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YhaZt&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="WakaTime Stats" />
+  <a href="https://wakatime.com/@YhaZt">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YhaZt&theme=tokyonight&utcOffset=8" alt="Most Productive Hours" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://wakatime.com/@YhaZt"><strong>View live coding stats on WakaTime →</strong></a>
 </p>
 
 ---
